@@ -121,12 +121,6 @@ class ProductController extends Controller
             'status' => 'info']);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         $product = Product::findOrFail($id);
