@@ -5309,11 +5309,14 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-/* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
+/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./swiper */ "./resources/js/swiper.js");
+/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_swiper__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
 
 
-window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"];
-alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"].start();
+
+window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_2__["default"];
+alpinejs__WEBPACK_IMPORTED_MODULE_2__["default"].start();
 
 /***/ }),
 
@@ -5358,6 +5361,16 @@ micromodal__WEBPACK_IMPORTED_MODULE_0__["default"].init({
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/swiper.js":
+/*!********************************!*\
+  !*** ./resources/js/swiper.js ***!
+  \********************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Applications/MAMP/htdocs/laravel/umarche/resources/js/swiper.js: Identifier 'Swiper' has already been declared. (7:8)\n\n\u001b[0m \u001b[90m  5 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m  \u001b[90m// core version + navigation, pagination modules:\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m  \u001b[36mimport\u001b[39m \u001b[33mSwiper\u001b[39m\u001b[33m,\u001b[39m { \u001b[33mNavigation\u001b[39m\u001b[33m,\u001b[39m \u001b[33mPagination\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'swiper'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m  \u001b[90m// import Swiper and modules styles\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m  \u001b[36mimport\u001b[39m \u001b[32m'swiper/css'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m  \u001b[36mimport\u001b[39m \u001b[32m'swiper/css/navigation'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    at constructor (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:348:19)\n    at Parser.raise (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:3202:19)\n    at ScopeHandler.checkRedeclarationInScope (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:1475:19)\n    at ScopeHandler.declareName (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:1446:12)\n    at Parser.declareNameFromIdentifier (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:7455:16)\n    at Parser.checkIdentifier (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:7451:12)\n    at Parser.checkLVal (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:7390:12)\n    at Parser.finishImportSpecifier (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14094:10)\n    at Parser.parseImportSpecifierLocal (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14091:31)\n    at Parser.maybeParseDefaultImportSpecifier (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14215:12)\n    at Parser.parseImportSpecifiersAndAfter (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14068:29)\n    at Parser.parseImport (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14064:17)\n    at Parser.parseStatementContent (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:12655:27)\n    at Parser.parseStatementLike (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:12533:17)\n    at Parser.parseModuleItem (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:12510:17)\n    at Parser.parseBlockOrModuleBlockBody (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:13134:36)\n    at Parser.parseBlockBody (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:13127:10)\n    at Parser.parseProgram (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:12409:10)\n    at Parser.parseTopLevel (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:12399:25)\n    at Parser.parse (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14295:10)\n    at parse (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/parser/lib/index.js:14336:38)\n    at parser (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/core/lib/parser/index.js:41:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/core/lib/transformation/index.js:21:50)\n    at run.next (<anonymous>)\n    at transform (/Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/core/lib/transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (/Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:261:32)\n    at /Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:223:11)\n    at /Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:189:28\n    at /Applications/MAMP/htdocs/laravel/umarche/node_modules/@babel/core/lib/gensync-utils/async.js:68:7\n    at /Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:113:33\n    at step (/Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:287:14)\n    at /Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/Applications/MAMP/htdocs/laravel/umarche/node_modules/gensync/index.js:223:11)");
 
 /***/ }),
 
@@ -22869,6 +22882,18 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
 /******/ 		};
 /******/ 	})();
 /******/ 	
