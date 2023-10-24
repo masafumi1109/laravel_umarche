@@ -1,7 +1,7 @@
 // import Swiper JS
 import Swiper from 'swiper';
 // import Swiper styles
-import 'swiper/css';
+// import 'swiper/css';
 
  // core version + navigation, pagination modules:
  import Swiper, { Navigation, Pagination } from 'swiper';
