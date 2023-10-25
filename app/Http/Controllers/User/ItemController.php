@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\TestMail;
 use App\Jobs\SendThanksMail;
+
 class ItemController extends Controller
 {
 
@@ -37,7 +38,7 @@ class ItemController extends Controller
         // dd($request);
 
         // 同期的に送信
-        // Mail::to('test@test.com')
+        // Mail::to('test@example.com')
         // ->send(new TestMail());
 
         //非同期に送信
